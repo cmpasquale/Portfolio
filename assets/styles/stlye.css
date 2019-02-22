@@ -1,0 +1,196 @@
+
+/* Header */
+.subnav-hero-section {
+  text-align: center;
+  background-image: url("../images/-branch-blossom-pxhere.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: visible;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 200px;
+
+
+}
+
+.subnav-hero-section .subnav-hero-headline {
+  color: #fefefe;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+}
+
+.subnav-hero-subnav {
+  float: none;
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  bottom: 0;
+  width: 100%;
+}
+
+.subnav-hero-subnav li {
+  float: none;
+  display: inline-block;
+}
+
+.subnav-hero-subnav li a {
+  padding: 0.9rem 1rem;
+  font-size: 0.75rem;
+  color: #fefefe;
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  display: block;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 0.35s ease-in-out;
+}
+
+.subnav-hero-subnav li a.is-active {
+  background: rgba(254, 254, 254, 0.15);
+}
+
+.subnav-hero-subnav li a:hover {
+  background: rgba(254, 254, 254, 0.15);
+}
+
+/* Contact */
+.input-group-button{
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+ 
+
+
+}
+.form-floating-label {
+  position: relative;
+  
+}
+
+.form-floating-label [type='text'],
+.form-floating-label [type='password'],
+.form-floating-label [type='date'],
+.form-floating-label [type='datetime'],
+.form-floating-label [type='datetime-local'],
+.form-floating-label [type='month'],
+.form-floating-label [type='week'],
+.form-floating-label [type='email'],
+.form-floating-label [type='number'],
+.form-floating-label [type='search'],
+.form-floating-label [type='tel'],
+.form-floating-label [type='time'],
+.form-floating-label [type='url'],
+.form-floating-label [type='color'],
+.form-floating-label textarea {
+  margin-bottom: 0;
+  color: #8a8a8a;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 30px 1rem 1rem 25px;
+}
+
+.form-floating-label label {
+  color: #cacaca;
+  font-size: 18px;
+  position: absolute;
+  pointer-events: none;
+  left: 25px;
+  bottom: 0;
+  transition: all 0.2s ease-in;
+  font-weight: 300;
+}
+
+.form-floating-label textarea ~ label {
+  top: 20px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.form-floating-label input:focus ~ label,
+.form-floating-label input:disabled[value] ~ label,
+.form-floating-label.has-value input ~ label {
+  top: 0;
+  font-size: 14px;
+  color: black;
+  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+}
+
+.form-floating-label textarea:focus ~ label,
+.form-floating-label.has-value textarea ~ label {
+  top: 0;
+  font-size: 14px;
+  color:black;
+  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+}
+
+/* About */
+
+.bio{
+font-family: 'Playfair Display', serif;
+font-size: 20px;
+float:right;
+width: 72%;
+
+}
+
+#bio-image{
+float:left;
+padding: 10px;
+margin: 10px;
+
+} 
+
+#main {
+  margin-top: 4%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 1px solid black;
+  height: 40%;
+  width: 80%;
+ 
+
+}
+
+.work-feature-block-image {
+  display: block;
+  margin: auto;
+  padding: 10px 0;
+}
+
+
+.fa
+{
+color: darkgrey;
+ padding: 10px;
+ margin-left: 200px;
+}
+
+
+/* Cards */
+.card{
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  padding: 10px;
+  margin-top: 3%;
+}
+#tastebud{
+  height:200px
+}
+#crystals{
+  background-color: white;
+   height:200px
+}
+
+
+/* Footer */
+
