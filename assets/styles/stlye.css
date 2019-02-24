@@ -63,7 +63,7 @@
 }
 
 /* Contact */
-.input-group-button{
+/* .input-group-button{
   font-family: 'Playfair Display', serif;
   font-size: 20px;
  
@@ -131,7 +131,7 @@
   color:black;
   font-weight: 400;
   font-family: 'Playfair Display', serif;
-}
+} */
 
 /* About */
 
@@ -154,9 +154,6 @@ margin: 10px;
   margin-top: 4%;
   margin-left: 10%;
   margin-right: 10%;
-  border: 1px solid black;
-  height: 40%;
-  width: 80%;
  
 
 }
@@ -171,7 +168,7 @@ margin: 10px;
 .fa
 {
 color: darkgrey;
- padding: 10px;
+ padding: 3px;
  margin-left: 200px;
 }
 
